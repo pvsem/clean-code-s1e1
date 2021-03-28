@@ -13,7 +13,7 @@ body {
 .img-wrapper img {
   width: 100%;
 }
-.img-wrapper .more-info {
+.img-wrapper .more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -22,7 +22,7 @@ body {
     text-align: center;
   }
 }
-.to-do-list {
+.centered-main-page-element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
