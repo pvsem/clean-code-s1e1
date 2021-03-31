@@ -144,7 +144,7 @@
   display: none;
 }
 
-.edit-mode input[type="text"] {
+.edit-mode .task {
   display: inline-block;
   width: 65%;
 }
