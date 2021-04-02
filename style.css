@@ -11,7 +11,7 @@
 }
 .img-wrapper {
   width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 16px auto;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -40,6 +40,7 @@
 }
 .task-row-wrapper {
   display: flex;
+  padding: 20px 0 16px 0;
 }
 #incomplete-tasks,
 #completed-tasks {
@@ -64,8 +65,7 @@
 }
 
 /* Heading */
-.h3,
-.new-task-label {
+.h3{
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -91,10 +91,6 @@
 }
 
 /* New Task */
-.new-task-label {
-  display: block;
-  margin: 0 0 20px;
-}
 .new-task {
   width: 100%;
 }
