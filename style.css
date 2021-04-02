@@ -41,7 +41,7 @@
 .task-row-wrapper {
   display: flex;
 }
-#incompleteTasks,
+#incomplete-tasks,
 #completed-tasks {
   margin: 0;
 }
@@ -101,7 +101,7 @@
 
 /* Task list */
 #completed-tasks li, 
-#incompleteTasks li {
+#incomplete-tasks li {
   overflow: hidden;
   padding: 19px 0;
   border-bottom: 1px solid #eee;
